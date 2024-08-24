@@ -1,7 +1,11 @@
 {
   "canisters": {
     "hello_world_backend": {
-      "main": "src/hello_world_backend/main.mo",
+      "main": "src/hello_world_backend/RentalContract.mo",
+      "type": "motoko"
+    },
+    "test_rental_contract": {
+      "main": "src/hello_world_backend/TestRentalContract.mo",
       "type": "motoko"
     },
     "hello_world_frontend": {
